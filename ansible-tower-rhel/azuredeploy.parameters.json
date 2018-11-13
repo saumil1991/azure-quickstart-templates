@@ -3,22 +3,30 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmAnsibleTowerUsername": {
-      "value": "GEN-UNIQUE"
+      "value": "admin"
     },
     "sshKeyData": {
-      "value": "GEN-SSH-PUB-KEY"
+      "value": "---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "rsa-key-20181113"
+AAAAB3NzaC1yc2EAAAABJQAAAQEAhCa+bkz83wKKY2Iwauqos91BN0EHFr2pe1TZ
+DSy+L8ho8wRO2TLrU0EGq1uSw0L99PhUdQbZRee+/kXokNsr2Y4aaNmo6P1QctT8
+nGyLyrgUjFvLTglqj+3M68dRNQFIo0GebnhUoxLGvtcb3zIwqmhVX3fgVoVuualj
+iqwrY8XLf/p5pnEussyMOM+PbenYrmfFMTsXb0zP/aLBng+qEXnTUIp+oDLk4YPQ
+i7tQ3AnGU5HgXIJVHoxUOih/T8FfOHcDeYqDOOIu1K4X1EYJisvxHfIQyKLd3gKt
+Bnjf8lJXYLENb7pizewqTOsusoijf4Euhf6pqXN0HXjAaIeDjQ==
+---- END SSH2 PUBLIC KEY ----"
     },
     "ansibleTowerAdminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "admin@123"
     },
      "ansibleTowerDatabasePassword": {
-      "value": "GEN-PASSWORD"
+      "value": "admin@123"
     },
     "vmClientUsername": {
-      "value": "GEN-UNIQUE"
+      "value": "admin1"
     },
     "vmClientPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "admin1@123"
     },
     "remoteAllowedCIDR": {
       "value": "0.0.0.0/0"
